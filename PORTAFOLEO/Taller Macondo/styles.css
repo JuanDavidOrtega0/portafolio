@@ -1,0 +1,26 @@
+.titulo {
+    color: black;
+    text-align: center;
+    background-color: gray;
+    height: 60px;
+}
+
+.card {
+    align-content: center;
+    width: 300px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 5px;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/564x/2c/15/a2/2c15a2183846430e49f772ac0932bdf1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
