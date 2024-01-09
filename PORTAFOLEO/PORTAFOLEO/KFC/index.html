@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KFC</title>
+
+    <link rel="icon" href="img/favicon.ico">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body class="theme-light" id="body">
+    
+    <div class="img text-center">
+        <img width="300px" style="padding: 50px;" src="https://paseosanrafael.com/wp-content/uploads/2019/11/KFC_new_logo-800x720.png" alt="">
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/KFC_Logo.svg/1200px-KFC_Logo.svg.png" alt="" width="600px" style="padding: 50px;">
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <select class="form-select" name="" id="">
+                    <option value="">Seleccionar...</option>
+                    <option value="">Español</option>
+                    <option value="">Ingles</option>
+                </select>
+            </div>
+    
+            <div class="col-md-6">
+                <select class="form-select" name="" id="select" onchange="cambiarTheme()">
+                    <option value="">Seleccionar...</option>
+                    <option value="claro">Claro</option>
+                    <option value="oscuro">Oscuro</option>
+                    <option value="libre">Libre</option>
+                </select>
+            </div>
+    
+        </div>
+    
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="img/hamburguesa-1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="price">$ 8.900</p>
+                        <p class="title">BBQ Crunch</p>
+                        <p id="texto-1" class="texto">1 Sándwich BBQ Crunch (1 Filete de pollo apanado) </p> <br> <br>
+                        <a target="_blank" href="https://www.kfc.co/products/bbq-crunch-2788"><button class="btn btn-danger w-100">Comprar</button></a>
+                    </div>
+                  </div>
+            </div>
+    
+            <div class="col-md-3">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="img/hamburguesa-2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="price">$ 15.900</p>
+                        <p class="title">Kentucky Sandiwch</p>
+                        <p id="texto-2" class="texto">1 Kentucky hamburguesa / Sandwich (1 filete de pechuga de pollo apanado, pepinillos,...</p> <br>
+                        <a target="_blank" href="https://www.kfc.co/products/kentucky-sandwich-4717"><button class="btn btn-danger w-100">Comprar</button></a>
+                    </div>
+                  </div>
+            </div>
+    
+            <div class="col-md-3">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="img/hamburguesa-3.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="price">$ 15.900</p>
+                        <p class="title">Combo BBQ Crunch</p>
+                        <p id="texto-3" class="texto">1 Sandwich BBQ Crunch (1 filete de pollo apanado) + 1 Papa Pequeña + 1 Gaseosa PET...</p> <br>
+                        <a target="_blank" href="https://www.kfc.co/products/combo-bbq-crunch-2791"><button class="btn btn-danger w-100">Comprar</button></a>
+                    </div>
+                  </div>
+            </div>
+    
+            <div class="col-md-3">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="img/hamburguesa-4.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="price">$ 16.900</p>
+                        <p class="title">Kentucky Coronel </p>
+                        <p id="texto-4" class="texto">1 Kentucky Coronel hamburguesa / Sandwich (1 Filete de pechuga de pollo apanado, Ensalada...</p> <br>
+                        <a target="_blank" href="https://www.kfc.co/products/kentucky-coronel-sandwich-5278"><button class="btn btn-danger w-100">Comprar</button></a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="img/hamburguesa-5.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="price">$ 21.900</p>
+                        <p class="title">Combo Kentucky Sandwich</p>
+                        <p id="texto-5" class="texto">1 Kentucky hamburguesa / Sandiwch (1 filete de pechuga de pollo apanado, pepinillos,...</p> <br>
+                        <a target="_blank" href="https://www.kfc.co/products/combo-kentucky-sandwich-4720"><button class="btn btn-danger w-100">Comprar</button></a>
+                    </div>
+                  </div>
+            </div>
+    
+            <div class="col-md-3">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="img/hamburguesa-6.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="price">$ 22.900</p>
+                        <p class="title">Combo Kentucky Coronel Sandwich</p>
+                        <p id="texto-6" class="texto">1 Kentucky Coronel hamburguesa / Sandwich (1 FIlete de Pechuga de pollo apanado, Ensalada..)
+                        </p>
+                        <a target="_blank" href="https://www.kfc.co/products/combo-kentucky-coronel-sandwich-5281"><button class="btn btn-danger w-100">Comprar</button></a>
+                    </div>
+                  </div>
+            </div>
+    
+            <div class="col-md-3">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="img/hamburguesa-7.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="price">$ 23.900</p>
+                        <p class="title">Sandiwch Crispy BBQ</p>
+                        <p id="texto-7" class="texto">1 Sandiwich Crispy BBQ (1 Filete de pechuga extra grande, triple empanizado, cebolla crisp...</p> <br>
+                        <a target="_blank" href="https://www.kfc.co/products/sandwich-crispy-bbq-6215"><button class="btn btn-danger w-100">Comprar</button></a>
+                    </div>
+                  </div>
+            </div>
+    
+            <div class="col-md-3">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="img/hamburguesa-8.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="price">$ 29.900</p>
+                        <p class="title">Combo Sandiwich Crispy BBQ </p>
+                        <p id="texto-8" class="texto">1 Sandwich Crispy BBQ (1 Filete de pechuga extra grande, triple empanizado, cebolla crisp...</p> <br>
+                        <a target="_blank" href="https://www.kfc.co/products/combo-sandwich-crispy-bbq-6219"><button class="btn btn-danger w-100">Comprar</button></a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

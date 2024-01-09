@@ -1,0 +1,34 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2023/12/31/12/50/woodland-8479979_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.copy {
+    font-size: 20px;
+    margin-top: 10px;
+}

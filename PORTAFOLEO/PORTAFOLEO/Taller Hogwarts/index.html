@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Taller de Hogwarts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="#">
+  </head>
+  <body>
+    <div>
+      <h1 class="titulo">Taller Hogwarts</h1>
+    </div>
+    <div class="container d-flex justify-content-center mt-3">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md">
+          <div class="card mx-4 text-center" style="width: 600px; height: 600px;">
+            <img src="https://www.mundodeportivo.com/alfabeta/hero/2023/02/clases-hogwarts.jpg?width=1200" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Paso 1</h5>
+              <p class="card-text">Eres estudiante de Hogwarts, tienes la edad suficiente para entrar a estudiar,
+                tienes padres, y un linaje de sangre, aun no sabes tu casa, ni tu animal patronus,
+                también tienes cualidades, que son muy importantes para que el sombrero
+                seleccionador te asigne una casa.</p>
+            </div>
+            <div class="card-body">
+              <button type="button" class="btn btn-outline-primary" onclick="informacionPrincipal()">Ver información principal del estudiante</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card text-center" style="width: 600px; height: 600px;">
+          <img src="https://images.ctfassets.net/usf1vwtuqyxm/3lgLhJk4Vhcc3StHMXOtJT/d48bc0167aa444f260486409c9146e1b/3lgLhJk4Vhcc3StHMXOtJT.png?fm=jpg&q=70&w=2560" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Paso 2</h5>
+            <p class="card-text">Es una año difícil en Hogwarts, ya que corren rumores que el innombrable ha vuelto,
+              y el y el famoso Harry Potter también ha ingresado contigo.  </p>
+          </div>
+          <div class="card-body">
+            <button type="button" class="btn btn-outline-secondary" onclick="clasesProfesores()">Ver clases y profesores</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container d-flex justify-content-center mt-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md">
+          <div class="card mx-4 text-center" style="width: 600px; height: 600px;">
+            <img src="https://hardzone.es/app/uploads-hardzone.es/2023/02/hogwarts.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Paso 3</h5>
+                <p class="card-text">Inicia un nuevo día, es el día del sombrero seleccionador¡¡
+                  hay una gran cena de bienvenida, estas tu con todos tus compas, según tu linaje y
+                  cualidades, el sombrero seleccionador te asignara una casa.</p>
+              </div>
+              <div class="card-body">
+                <button type="button" class="btn btn-outline-success" onclick="casaAsignada()">Ver tu casa asignada</button>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-center" style="width: 600px; height: 600px;" >
+          <img src="https://img.freepik.com/fotos-premium/arte-digital-boggart-furioso_899449-1588.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Paso 4</h5>
+                <p class="card-text">Primer día de clases: vas temprano a clase de transformaciones, en clase de
+                  transformaciones que es un objeto, con transformaciones con boggarts, «Altera
+                  la habilidad de un boggart para cambiar de forma y provoca risa para derrotarlo.»
+                  esto se logra con el encantamiento "Riddikulus".</p>
+              </div>
+              <div class="card-body">
+                <button type="button" class="btn btn-outline-danger" onclick="verificarBoggart()">Verificar si hay un boggart presente</button>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div class="container d-flex justify-content-center mt-5 my-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col">
+          <div class="card mx-4 text-center" style="width: 600px; height: 550px;">
+            <img src="https://wallpapercave.com/wp/wp9399728.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Paso 5</h5>
+                <p class="card-text">Puedes ir agregando las demás clases, pero es importante que vayas a la clase de
+                  defensa contra las artes oscuras, para puedas defenderte con tu animal Patronus de los dementores que
+                  han escapado de Azkaban.</p>
+              </div>
+              <div class="card-body">
+                <button type="button" class="btn btn-outline-warning" onclick="generarPatronus()">Generar animal Patronus</button>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-center" style="width: 600px; height: 550px;" >
+          <img src="https://www.infobae.com/new-resizer/2yKF7IwNf54c98L3XcI_G9CeA3k=/arc-anglerfish-arc2-prod-infobae/public/QJ7SS2GJYFGGJNWV3Q2ZV7XQIM.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Paso 6</h5>
+                <p class="card-text">Mostrar información del estudiante con los cambios realizador a su objeto, con todos los datos que consiguió mientras estaba estudiando en Hogwarts.</p>
+              </div>
+              <div class="card-body">
+                <button type="button" class="btn btn-outline-info" onclick="verInformacion()">Ver información completa con todos los atributos</button>
+              </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

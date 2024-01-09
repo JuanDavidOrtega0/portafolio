@@ -1,0 +1,28 @@
+.btnn {
+    color: whitesmoke;
+    background-color: black;
+    border: none;
+    font-size: 28px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.btnn:hover {
+    color: black;
+    background-color: rgb(40, 173, 187);
+    border: none;
+}
+
+.container1 {
+    background-color: black;
+    color: whitesmoke;
+    padding: 30px;
+}
+
+.niño {
+    background-color: lightblue;
+}
+
+.niña {
+    background-color: pink;
+}

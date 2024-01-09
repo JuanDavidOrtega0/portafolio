@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffree4kwallpapers.com%2Fuploads%2Foriginals%2F2019%2F04%2F23%2Fhogwarts-castle---universal-orlando---wallpaper.jpg&f=1&nofb=1&ipt=5085b6aadcb20ed41701788d84dde0a541e0686e709d1874c89209c04e77a6c2&ipo=images);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgba(164, 164, 164, 0.61);
+    height: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+    color: black;
+    margin-top: 20px;
+}
+
+.card {
+    opacity: 0.5;
+    background-color: lightgray;
+
+    
+    & p{
+        color: black;
+        opacity: 3.5;
+        font-weight: bold;
+    }
+
+    & label{
+        color: black;
+        opacity: 3.5;
+        font-weight: bold;
+    }
+
+    & button{
+        color: black;
+        opacity: 3.5;
+        font-weight: bold;
+    }
+}
+
+footer {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+}

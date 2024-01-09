@@ -1,0 +1,102 @@
+/* Theme LIGHT */
+
+.theme-light {
+    background-color: whitesmoke;
+}
+
+.theme-light .card {
+    background-color: lightgray;
+}
+
+.theme-light button {
+    background-color: gray;
+    color: white;
+    border: none;
+}
+
+.theme-light button:hover {
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+}
+
+.theme-light select {
+    background-color: lightgray;
+    border: none;
+}
+
+.theme-light select:hover {
+    background-color: gray;
+    color: whitesmoke;
+    border: none;
+}
+
+/* Theme DARK */
+
+.theme-dark {
+    background-color: #333;
+}
+
+.theme-dark .card {
+    background-color: #666;
+    color: whitesmoke;
+}
+
+.theme-dark button {
+    background-color: whitesmoke;
+    color: #333;
+    border: none;
+}
+
+.theme-dark button:hover {
+    background-color: #333;
+    color: whitesmoke;
+    border: none;
+}
+
+.theme-dark select {
+    background-color: #666;
+    color: whitesmoke;
+    border: none;
+}
+
+.theme-dark select:hover {
+    background-color: whitesmoke;
+    color: #333;
+    border: none;
+}
+
+/* Theme FREE */
+
+.theme-free {
+    background-color: #08707d;
+}
+
+.theme-free .card {
+    background-color: #0f383e;
+    color: whitesmoke;
+}
+
+.theme-free button {
+    background-color: #08707d;
+    color: whitesmoke;
+    border: none;
+}
+
+.theme-free button:hover {
+    background-color: rgb(5, 45, 62);
+    color: #08707d;
+    border: none;
+}
+
+.theme-free select {
+    background-color: #0f383e;
+    color: whitesmoke;
+    border: none;
+}
+
+.theme-free select:hover {
+    background-color: rgb(5, 45, 62);
+    color: #08707d;
+    border: none;
+}

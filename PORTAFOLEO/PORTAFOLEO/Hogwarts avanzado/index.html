@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Taller De Hogwarts</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="#">
+
+    <link rel="icon" href="logoHogwarts-removebg-preview.png">
+
+  </head>
+  <body>
+
+    <div>
+      <h1 class="titulo">Taller Hogwarts</h1>
+    </div>
+    
+    <div class="container">
+
+      <div class="row justify-content-center">
+        
+        <div class="card mt-3 mx-3 text-center" style="width: 400px; height: 400px;">
+          
+          <div class="card-body">
+            
+            <h5 class="card-title">Paso 1</h5>
+            <p>Completa los campos</p>
+            <div class="datosDelNombre">
+              
+              <div class="nombre">
+                <label for="">Nombre</label>
+                <input class="" id="nombre" type="text" placeholder="Ingresa tu nombre">
+              </div>
+              
+              <div class="edad">
+                <label for="">Edad</label>
+                <input type="number" name="" id="edad" placeholder="Ingresa tu edad">
+              </div>
+              
+              <div class="familia">
+                <label for="">Familia</label>
+                <input id="familia" type="text" placeholder="Ingresa tu familia">
+              </div>
+              
+              <div class="linaje">
+                <label class="label" for="">Linaje</label>
+                <select name="" id="linaje">
+                  <option value="Mestizo">Mestizo</option>
+                  <option value="Muggle">Muggle</option>
+                  <option value="Sangre pura">Sangre pura</option>
+                </select>
+              </div>
+                
+                <div class="cualidades">
+                  <label for="">Cualida</label>
+                  <select name="" id="cualidades">
+                    <option value="Valor, Fuerza, Audacia">Valor, Fuerza, Audacia</option>
+                    <option value="Justicia, Lealtad, Paciencia">Justicia, Lealtad, Paciencia</option>
+                    <option value="Creatividad, Erudición, Inteligencia">Creatividad, Erudición, Inteligencia</option>
+                    <option value="Ambición, Determinación, Astucia">Ambición, Determinación, Astucia</option>
+                  </select>
+                </div>
+              </div>
+              
+              <div class="btn">
+                <button onclick="informacionPrincipal()" type="button" class="btn btn-outline-dark">Guardar datos</button>
+              </div>
+
+              <div id="paso1"></div>
+              
+            </div>
+          </div>
+          
+          <div class="card mt-3 mx-3 text-center" style="width: 400px; height: 400px;">
+
+            <div class="card-body">
+
+              <h5 class="card-title">Paso 2</h5>
+
+                <p class="card-text">Vamos a ver las clases y los profesores .Es una año difícil en Hogwarts, ya que corren rumores que el innombrable ha vuelto,
+                  y el y el famoso Harry Potter también ha ingresado contigo.</p>
+
+                <button onclick="clasesProfesores()" type="button" class="btn btn-outline-dark">Ver clases y profesores</button>
+                  <br><br>
+                <div id="paso2"></div>
+
+              </div>
+            </div>
+            
+            <div class="card mt-3 mx-3 text-center" style="width: 400px; height: 400px;">
+
+              <div class="card-body">
+
+                <h5 class="card-title">Paso 3</h5>
+
+                <p class="card-text">Es hora de asignarte una casa. Elige un linaje y cualidades que coincidan con las siguientes: Gryffindor ("valor, fuerza, audacia"
+                  Linaje: Mestizo, muggle, Sangre pura )
+                                  
+                  Hufflepuff("justicia, lealtad, paciencia"
+                  Linaje: Mestizo, muggle)
+                  
+                  Ravenclaw(“creatividad, erudición, inteligencia"
+                  Linaje: Mestizo, muggle, Sangre pura)
+                  
+                  Slytherin ("ambición, determinación, astucia"
+                  Linaje: "Sangre Pura")</p>
+
+                <button onclick="casaAsignada()" type="button" class="btn btn-outline-dark">Asignar casa</button>
+                <br><br>
+                <div id="paso3"></div>
+
+              </div>
+            </div>
+          </div>
+          
+          <div class="row justify-content-center">
+            
+            <div class="card mt-3 mx-3 text-center" style="width: 400px; height: 400px;">
+
+              <div class="card-body">
+
+                <h5 class="card-title">Paso 4</h5>
+
+                <p class="card-text">Elige la opción depende si hay un boggart presente o no.</p>
+
+                  <label for="">Boggart</label>
+                  <select name="" id="boggart">
+                    <option value="Hay un boggart presente">Hay un boggart presente</option>
+                    <option value="No hay ningún boggart presente">No hay ningún boggart presente</option>
+                  </select>
+
+                  <br><br>
+
+                <button onclick="verificarBoggart()" type="button" class="btn btn-outline-dark">Atacar boggart</button>
+                <div id="paso4"></div>
+
+              </div>
+            </div>
+            
+            <div class="card mt-3 mx-3 text-center" style="width: 400px; height: 400px;">
+
+              <div class="card-body">
+
+                <h5 class="card-title">Paso 5</h5>
+
+                  <p class="card-text">Es hora de asignarte un Animal Patronus</p>
+
+                  <img src="https://wallpapercave.com/wp/wp9399728.jpg" alt="" style="height: 100px; width: 200px;">
+
+                  <br><br>
+
+                <button onclick="generarPatronus()" type="button" class="btn btn-outline-dark">Generar animal Patronus</button>
+                <br><br>
+                <div id="paso5"></div>
+
+              </div>
+            </div>
+            
+            <div class="card mt-3 mx-3 text-center" style="width: 400px; height: 400px;">
+
+              <div class="card-body">
+
+                <h5 class="card-title">Paso 6</h5>
+
+                <p class="card-text">Mostrar información del estudiante, con todos los datos que consiguió mientras estaba estudiando en Hogwarts.</p>
+
+                <button onclick="verInformacion()" type="button" class="btn btn-outline-dark">Ver información completa</button>
+                <br><br>
+                <div id="paso6"></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <footer>
+          <p>Hecho por: Juan David Ortega &copy;</p>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
